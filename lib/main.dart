@@ -2,6 +2,8 @@ void main() {
   double weight = 70; // in kilograms
   double height = 1.625; // in meters
 
+  print('Welcome to BMI calculator');
+
   double bmi = weight / (height * height);
    print(bmi);
   if (bmi < 18.5) {
